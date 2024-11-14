@@ -6,6 +6,7 @@
             <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
         </server>
     </servers>
+
     <profiles>
         <profile>
             <id>unicorns-unicorn-packages</id>
@@ -20,6 +21,7 @@
             </repositories>
         </profile>
     </profiles>
+
     <mirrors>
         <mirror>
             <id>unicorns-unicorn-packages</id>
@@ -28,4 +30,5 @@
             <mirrorOf>*</mirrorOf>
         </mirror>
     </mirrors>
+
 </settings>
